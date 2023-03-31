@@ -1,4 +1,40 @@
-.container {
-    margin-top: 50px;
-  }
+.nav-tabs-custom {
+  background-color: #007bff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.nav-tabs-custom li a {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.nav-tabs-custom li a:hover {
+  background-color: #0069d9;
+}
+
+.tab-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: -15px;
+}
+
+.tab-content-inner {
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #333;
+}
+
   

@@ -2,28 +2,23 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>M2SI BLOG</title>
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-  <!-- Custom CSS -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Blog du Débutant</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+J4ksoIdd6jlGTM6OJZZTLyP0yIbJkh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-
   <div class="container">
-  <a href="#"><img src="./m2si.png" alt="Mon Logo" class="my-3"></a>
-  <!-- Le reste du code HTML -->
-</div> 
-  <div class="container">
-    <h1 class="text-center my-5" style="font-family: Arial, sans-serif;">
-    <span style="color: #002633; font-weight: bold;">Le</span>
-    <span style="color: #4EB1BA; font-weight: bold;">Blog</span>
-    <span style="color: #F9CB40; font-weight: bold;">du</span>
-    <span style="color: #002633; font-weight: bold;">Débutant</span>
-  </h1>
+    <a href="#"><img src="logo.png" alt="Mon Logo" class="my-3"></a>
+    <h1 class="text-center my-5">M2SI BLOG</h1>
+    <div class="new-title">
+      <h1 style="font-family: Arial, sans-serif;">
+        <span style="color: #002633; font-weight: bold;">Le</span>
+        <span style="color: #4EB1BA; font-weight: bold;">Blog</span>
+        <span style="color: #F9CB40; font-weight: bold;">du</span>
+        <span style="color: #002633; font-weight: bold;">Débutant</span>
+      </h1>
+    </div>
     <ul class="nav nav-tabs nav-tabs-custom">
       <li class="nav-item">
         <a class="nav-link active" data-toggle="tab" href="#aws">AWS</a>
@@ -38,51 +33,25 @@
         <a class="nav-link" data-toggle="tab" href="#linux">Linux</a>
       </li>
     </ul>
-
     <div class="tab-content">
       <div class="tab-pane fade show active" id="aws">
         <div class="tab-content-inner">
-          <h3>AWS</h3>
-          <p>AWS (Amazon Web Services) est une plateforme de cloud computing proposée par Amazon. Elle offre une grande variété de services pour stocker et traiter des données, exécuter des applications et des services, et déployer des infrastructures à l'échelle mondiale.</p>
-          <img src="./aws.png" alt="AWS Logo" class="img-fluid my-3">
-        </div>
-      </div>
-      <div class="tab-pane fade" id="azure">
-        <div class="tab-content-inner">
           <h3>AZURE</h3>
-          <p>AZURE est la plateforme de cloud computing de Microsoft. Elle permet de déployer, de gérer et de mettre à l'échelle des applications et des services, ainsi que de stocker et d'analyser des données sur des serveurs Microsoft à travers le monde.</p>
-          <img src="./azure.png" alt="Azure Logo" class="img-fluid my-3">
-        </div>
-      </div>
-      <div class="tab-pane fade" id="vmware">
-        <div class="tab-content-inner">
-          <h3>VMware</h3>
-          <p>VMware est une plateforme de virtualisation qui permet de créer des machines virtuelles pour exécuter des systèmes d'exploitation et des applications sur des ordinateurs physiques. Elle offre également des solutions de cloud computing pour les entreprises.</p>
-          <img src="./VMware.png" alt="VMware Logo" class="img-fluid my-3">
-        </div>
-      </div>
-            <div class="tab-pane fade" id="linux">
-        <div class="tab-content-inner">
-          <h3>Linux</h3>
-          <p>Linux est un système d'exploitation open source qui peut être utilisé pour le cloud computing. Il offre des solutions de virtualisation, de stockage et de réseau pour les entreprises qui souhaitent créer et gérer leur propre infrastructure de cloud computing.</p>
-          <img src="./Linux.png" alt="Linux Logo" class="img-fluid my-3">
-        </div>
-      </div>
-    </div>
+    <p>Azure est une plateforme de cloud computing proposée par Microsoft. Elle offre des services pour le stockage, le traitement, la gestion et la surveillance des données, ainsi que pour le développement et le déploiement d'applications et de services.</p>
+    <img src="azure-logo.png" alt="Azure Logo" class="img-fluid my-3">
   </div>
-
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-
-  <!-- Popper.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-
-  <!-- Bootstrap JS -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-  <!-- Custom JS -->
-  <script src="script.js"></script>
-
-</body>
-</html>
-
+</div>
+<div class="tab-pane fade" id="vmware">
+  <div class="tab-content-inner">
+    <h3>VMware</h3>
+    <p>VMware est une entreprise spécialisée dans la virtualisation et la gestion d'infrastructures informatiques. Elle propose des solutions pour la virtualisation des serveurs, des postes de travail et des applications, ainsi que pour la gestion des environnements de cloud computing.</p>
+    <img src="vmware-logo.png" alt="VMware Logo" class="img-fluid my-3">
+  </div>
+</div>
+<div class="tab-pane fade" id="linux">
+  <div class="tab-content-inner">
+    <h3>Linux</h3>
+    <p>Linux est un système d'exploitation open-source basé sur le noyau Linux. Il est utilisé pour une grande variété d'applications, y compris les serveurs Web, les systèmes embarqués et les supercalculateurs. Il est connu pour sa stabilité, sa sécurité et sa flexibilité.</p>
+    <img src="linux-logo.png" alt="Linux Logo" class="img-fluid my-3">
+  </div>
+</div>
